@@ -43,7 +43,7 @@
 nav{
     width: 100%;
     position: fixed;
-    background-color: rgb(21, 74, 74);
+    background-color: rgb(0, 0, 0);
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 15%);
     display: flex;
     align-items: center;
@@ -51,21 +51,33 @@ nav{
 }
 
 nav .logo{
-    width: 60px;
-    margin: 2vh;
-    margin-left: 8%;
+    width: 50px;
+    margin: vh;
+    margin-left: 1%;
+
 }
 
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .navbar{
     display: flex;
-    margin-right: 4vh;
+    margin-right: vh;
+    top: 0;
+    transition: top 0.02s;
 }
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navbar li {
+    display: inline;
+    margin-right: 20px;}
 
 .navbar a{
     color: white;
@@ -355,7 +367,7 @@ nav ul li a{
     border: 2px solid transparent;
     border-radius: 20px;
     color: white;
-    background-color: rgb(21, 74, 74);
+    background-color: rgb(0, 0, 0);
     padding: 14px 30px;
     cursor: pointer;
     font-size: 17px;
@@ -376,7 +388,7 @@ nav ul li a{
 
 .footer{
     margin-top: 80px;
-    background-color: rgb(21, 74, 74);
+    background-color: rgb(0, 0, 0);
 }
 
 .foot{
